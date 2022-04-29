@@ -23,7 +23,7 @@ class WelcomeScreen extends StatelessWidget {
                     style: Theme.of(context).textTheme.headline4?.copyWith(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
-                 const Text("Vui lòng nhập tên của bạn"),
+                 const Text("Vui lòng nhập tên của bạn."),
                 const  Spacer(), // 1/6
                 const  TextField(
                     decoration: InputDecoration(
